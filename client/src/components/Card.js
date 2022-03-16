@@ -1,15 +1,9 @@
 import React from 'react';
+import photos from '../data/foam-seed.json';
 
-export default function Card(props) {
+export default function Card() {
   const cardStyle = {
     width: '18rem',
-  };
-
-  // helper function that generates a random width for our placeholder images
-  // this will be deleted
-  const randomWidth = () => {
-    const number = Math.random() * (300 - 200) + 200;
-    return number.toString().split('.')[0];
   };
 
   return (
@@ -17,9 +11,8 @@ export default function Card(props) {
       <div className="card" style={cardStyle}>
         <img
           className="card-img-top"
-          // need to change this
-          src={`http://placecorgi.com/${randomWidth()}`}
-          alt="Card cap"
+          src={photos.url}
+          alt="foam"
         />
         <div className="card-body">
           <p href="#" className="btn btn-primary">
