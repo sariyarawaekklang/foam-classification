@@ -33,11 +33,12 @@ This project was created with the following:
 
 How to test this application:
 
+- Install dependencies using `npm i`
 - Enter the `client` directory via the command line
 - Enter `npm start` to display the React app
 
-  ## Questions
+## Questions
 
-  Feel free to check out my [GitHub](https://github.com/sariyarawaekklang) for review my previous class and personal projects.
-  </br>
-  For any more information or questions, please reach out via [email](mailto:sariyarawaekklang@gmail.com).
+Feel free to check out my [GitHub](https://github.com/sariyarawaekklang) for review my previous class and personal projects.
+</br>
+For any more information or questions, please reach out via [email](mailto:sariyarawaekklang@gmail.com).
